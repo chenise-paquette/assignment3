@@ -19,6 +19,7 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family: helvetica, opensans;
     background-color:#6ACBDF;
     
 }
@@ -39,10 +40,9 @@ header {
 }
 
 .logo {
-    width: 4.5rem;
-    height: auto;
-    float: left;
-    margin: 1.5rem 5%;
+  margin: 0 auto;
+  display:block;
+  padding-top: 10px;
 }
 
 .nav-top {
@@ -70,7 +70,6 @@ header {
     padding: 1.5rem 10%;
     color: black;
     font-size: 1.25rem;
-    text-decoration: ;
 }
 
 .selected {
