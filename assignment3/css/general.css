@@ -104,9 +104,11 @@ footer {
     margin: 0;
     padding: 1.5rem 5% 6rem;
     background-color:#6ACBDF;
+    font-size:2rem;
+    color: white
 }
 
-.nav-bottom ul {
+.nav-;bottom ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
