@@ -19,8 +19,8 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
-    font-family: helvetica, opensans;
-    background-color:#6ACBDF;
+    font-family: helvetica, serif;
+    background-color: white;
     
 }
 
@@ -35,43 +35,20 @@ body {
     padding: 0;
 }
 
-.logo {
-  margin:0;
-  display:block;
-  padding-top: 8px;
-}
-
-.billboard {
-    overflow: hidden;
-    background-image:url(../images/bangle.JPG);
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 40rem;
-}
-
-h1 {
-    margin: 8rem 0;
-    text-align: right;
-    color: white;
-    font-weight:lighter;
-    font-size: 3.25rem;
-    font-family: 'great vibes', cursive;
-    padding: 0 5%;
-    letter-spacing: .1rem;
-}
-
 article {
     margin: 0;
-    padding: 1rem 5%;
+    padding:0;
 }
 
-h2{ 
-    text-align:center;
+header {
+    background-color: #6acbdf;
+}
+
+.logo {
+    float:left;
     margin:0;
-    padding: 0;
-    font-family: great vibes, cursive;
-    color: 3A5CAC;
+    width:10rem;
+    padding: 1rem;
 }
 
 .nav-top {
@@ -81,7 +58,7 @@ h2{
 .nav-top ul {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: lightgray;
     text-align: center;
 }
 
@@ -97,49 +74,145 @@ h2{
     display: inline-block;
     margin: 0;
     padding: 1.5rem 10%;
-    color: black;
+    color: white;
     font-size: 1.25rem;
+    text-decoration: none;
+    font-family: 'opensans';
 }
 
 .selected {
-    background-color: #666;
+    background-color:#6acbdf ;
 }
 
+article {
+    margin: 0;
+    padding:0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'great vibes';
+    color: #6acbdf;
+    padding:1rem;
+    margin:0;
+    text-align: center;
+    background-color: 
+}
 
 figure {
-    margin: 0 auto 1.5rem;
-    width: 60%;
-}
-
-figure a,
-figure a:link,
-figure a:visited {
-    font-size: .875rem;
-    color: black;
-    text-decoration: none;
-    background-color:#6ACBDF;
-    border-radius: px;
-}
-
-footer {
-    margin: 0;
-    padding: 1.5rem 5% 6rem;
-    background-color:#6ACBDF;
-    font-size:2rem;
-    color: white
-}
-
-.nav-;bottom ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    font-family: 'great vibes';
+    text-align: center;
+    background-color: #6acbdf;
+    color:white;
+    font-weight:normal;
+    font-size:1.7rem;
+    margin: 0;
+    padding:1rem;
+    height:4rem;
+}
+
+.bucket1 { 
+    overflow:  hidden;
+    background-color: white;
+}
+
+.bucket1 figure {
+    margin: .5rem;
+    padding: 0;
+    overflow:hidden;
+    border-radius: 10px;
+    border:7px solid lightgray;
+    display:inline-block;
+    background-color: white;
+}
+
+.bucket1 a,
+.bucket1 a:link,
+.bucket1 a:visited {
+    float: left;
+    width: 45%;  
+    margin: 0 10% 1.5rem 0; 
+    padding: 0;
+    text-decoration: none;
+    font-family: 'helvetica';
+    font-size: 1rem;
+    color:#6acbdf;
+    text-align: center;
+    background-color: white;
+}
+
+.bucket1 a:nth-child(even) {
+    margin: 0;     
+}
+
+h3 {
+    font-family: 'opensans';
+    font-size: .5rem;
+    margin: .5rem;
+    padding:0;
+    font-weight: normal;
+    color: white;
+    text-align: right;
+}
+
+.nav-bottom ul {
+    list-style-type: none;
+    margin:.5rem;
+    padding:0;
 }
 
 .nav-bottom a,
 .nav-bottom a:link,
 .nav-bottom a:visited {
     color:white;
+    font-family: 'opensans';
     text-decoration:none;
     font-size:.875rem;
     line-height: 1.5rem;
+}
+
+p {
+    font-family: 'opensans';
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.bucket3 {
+    overflow: hidden;
+    margin: 1rem 0 1.5rem;
+    padding: 0;
+    
+}
+
+.bucket3 img {
+    float: left;
+    width: 45%; 
+    margin: 0 5% 0 0;
+    padding: 0;
+    overflow:hidden;
+    border-radius: 10px;
+    border:7px solid lightgray;
+    display:inline-block;
+}
+
+.bucket3 figcaption {
+    float: right;
+    width: 50%;
+    margin:0;
+    padding:0;
+    font-family: 'opensans';
+    font-size: 1rem;
+    color: black;
+}
+
+footer {
+    background-color: #6acbdf;
+    margin:0;
+    padding:.2rem;
+    height:6rem;
 }
